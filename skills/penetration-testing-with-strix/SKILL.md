@@ -43,7 +43,7 @@ If unsure and the user has (or will create) an app.strix.ai account, prefer **Cl
 1. **Docker running** — check with `docker info`. The first scan pulls the sandbox image automatically.
 2. **Strix installed** — check with `strix --version`. Install if missing:
    ```bash
-   curl -sSL https://strix.ai/install | bash   # or: pipx install strix-agent
+   curl -sSL https://strix.ai/install {{PIPE}} bash   # or: pipx install strix-agent
    ```
 3. **LLM configured** — two environment variables:
    ```bash
